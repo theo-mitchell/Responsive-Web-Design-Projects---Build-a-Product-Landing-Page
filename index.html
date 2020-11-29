@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FCC: Product Landing Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="header">
+            <img src="img/original_trombones.png" alt="Company Logo" id="header-img" class="image1">
+            <img src="img/small_trombones.png" alt="Company Logo" id="header-img2" class="image2">
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a> 
+                <a href="#howitworks" class="nav-link">How It Works</a> 
+                <a href="#pricing" class="nav-link">Pricing</a> 
+            </nav>
+        </header>
+
+        <form id="form" action ="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+            <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+
+        <section id="features">
+            <div class="grid">
+                <div class="bullet">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                    </p>
+                </div>
+                <div class="bullet">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
+                <div class="bullet">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="howitworks"><iframe id="video" height="500px" width="750px" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+        </section>
+
+        <section id="pricing">
+            <div class="grid2">
+                <div class="desc">
+                    <div class="desc-header">
+                        TENOR TROMBONE
+                    </div>
+                    <div class="desc-text">
+                        <strong>$600</strong>
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="desc-header">
+                        BASS TROMBONE
+                    </div>
+                    <div class="desc-text">
+                        <strong>$900</strong>
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="desc-header">
+                        VALVE TROMBONE
+                    </div>
+                    <div class="desc-text">
+                        <strong>$1999</strong>
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="desc-header">
+                        VALVE TROMBONE ELECTRIC BOGALOO
+                    </div>
+                    <div class="desc-text">
+                        <strong>$2999</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
